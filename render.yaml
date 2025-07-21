@@ -10,7 +10,5 @@ services:
         value: "1"
       - key: PYTHONDONTWRITEBYTECODE
         value: "1"
-    buildCommand: ""      # Not needed for Docker-based deploys
-    startCommand: "python app.py"
     healthCheckPath: /
     region: oregon
